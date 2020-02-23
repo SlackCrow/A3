@@ -1,0 +1,8 @@
+SLURM_JOBID=409994
+SLURM_JOB_NODELIST=cpn-u22-04
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/409994
+working directory = /user/jaeheunk/Desktop/A3
+rm -rf a3
+nvcc -x cu -std=c++11 -O3    a3.cpp   -o a3
+Tp: 11.0298s
